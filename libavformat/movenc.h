@@ -214,6 +214,7 @@ typedef struct MOVMuxContext {
     int encryption_key_len;
     uint8_t *encryption_kid;
     int encryption_kid_len;
+    char *encryption_key_fromenv;
 
     int need_rewrite_extradata;
 
